@@ -113,7 +113,11 @@ body {
     background-color:var(--color-hover);
 }   
 .presentacion__imagen {
-    width: 50%;
+
+    max-width: 350px;  /* ajusta el tamaño máximo */
+    width: 100%;       /* mantiene responsividad */
+    height: auto;      /* conserva proporción */
+    border-radius: 12px;
    
 }   
 
